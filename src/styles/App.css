@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;;
+}
+/*Cards*/
+.card{
+    background-color: white;
+    width: 20vw;
+    box-shadow: 0px 0px 1px black;
+}
+
+.containerCard{
+    margin-bottom: 3%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,0fr);
+    gap: 20px;
+}
+
+.card img{
+    width: 20vw;
+}
+
+.detail{
+    padding: 0% 5%;
+}
+
+.detail div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    height: 5vh;
+}
+
+.detail div .par{
+    padding: 1%;
+    border-radius: 12%;
+    font-size: 75%;
+    font-weight: 600;
+}
+
+.detail div .uno{
+    background-color: orange;
+}
+
+
+.detail div .dos{
+    margin-left: 2%;
+    background-color: rgb(58, 184, 58);
+    color: white;
+}
+
+.detail div .tres{
+    background-color: red;
+    color: white;
+}
+
+.detail div .cuatro{
+    margin-left: 2%;
+    background: rgb(198,55,19);
+    background: linear-gradient(0deg, rgba(198,55,19,1) 10%, rgba(231,70,30,1) 26%, rgba(238,218,28,1) 27%, rgba(238,218,28,1) 72%, rgba(231,70,30,1) 74%, rgba(198,55,19,1) 90%);    color: black;
+}
+.detail div .cinco{
+    background-color: black;
+    color: white;
+}
+
+.detail div .seis{
+    margin-left: 2%;
+    background: rgb(19,146,198);
+    background: linear-gradient(0deg, rgba(19,146,198,1) 10%, rgba(46,180,205,1) 26%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 72%, rgba(46,180,205,1) 74%, rgba(19,146,198,1) 90%);
+    color: #d1c027;
+}
+
+.detail div .par:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.detail div .uno:hover{
+    background-color: black;
+    color: orange;
+}
+
+.detail div .dos:hover{
+    background-color: white;
+    color: rgb(58, 184, 58);
+    box-shadow: 0px 0px 1px black;
+}
+
+.detail div .tres:hover{
+    background-color: white;
+    color:red;
+    box-shadow: 0px 0px 1px black;
+}
+
+.detail div .cuatro:hover{
+    background-color: #eeda1c;
+}
+
+.detail div .cinco:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+}
+
+.detail h4{
+    text-transform: uppercase;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.detail p{
+    margin-top: 5%;
+    font-size: 85%;
+}
+
+.detail span{
+    font-weight: 600;
+}
+
+/*Footer*/
+footer{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    margin-top: auto;
+    text-align: center;
+    background: rgb(6,6,62);
+    background: linear-gradient(90deg, rgba(6,6,62,1) 27%, rgba(23,33,120,1) 92%);
+    color: white;
+}
+
+footer p{
+    font-size: 80%;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    margin-left: 0.5%;
+}
+
+.redes{
+    margin-top: 1%;
+    font-size: 200%;
+}
+
+.redes a{
+    margin-left: 2%;
+}
+
+.redes .face{
+    margin-left: 0%;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 160%;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+.copyright{
+    color: rgb(120, 129, 196);
+}
+
+.detalle a{
+  color: rgb(177, 178, 195);
+}
+
+.detalle a:hover{
+  text-decoration: underline;
+}

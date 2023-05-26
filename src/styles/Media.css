@@ -1,0 +1,11 @@
+@media (max-width: 480px){
+    .card{
+        width: 45vw;
+    }
+    .card img{
+        width: 45vw;
+    }
+    .containerCard{
+        grid-template-columns: repeat(1,0fr);
+    }
+}
