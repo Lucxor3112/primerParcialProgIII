@@ -3,6 +3,7 @@ import '../styles/App.css'
 import '../styles/Media.css'
 import Cards from './Cards.jsx'
 import Footer from './Footer'
+import Banner from './Banner.jsx'
 
 function App() {
   return (
