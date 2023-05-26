@@ -1,8 +1,12 @@
 @media (max-width: 480px){
     .card{
         width: 45vw;
+        margin-bottom: 5%;
     }
     .card img{
+        width: 45vw;
+    }
+    .card:hover{
         width: 45vw;
     }
     .containerCard{
