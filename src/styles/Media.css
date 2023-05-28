@@ -1,4 +1,20 @@
 @media (max-width: 480px){
+    .subtitulo{
+        margin-top: 11%;
+    }
+    header{
+        flex-direction: column;
+        height: 25vh;
+    }
+    header .logo{
+        font-size: 110%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    header .links{
+        font-size: 80%;
+        margin-bottom: 5%;
+    }
     .banner{
         height: 50vh;
     }
@@ -12,16 +28,26 @@
         width: 73vw;
     }
     .card{
-        width: 45vw;
+        width: 60vw;
         margin-bottom: 5%;
     }
     .card img{
-        width: 45vw;
+        width: 60vw;
     }
     .card:hover{
-        width: 45vw;
+        width: 60vw;
     }
     .containerCard{
         grid-template-columns: repeat(1,0fr);
+    }
+    .contenedor2{
+        margin-top: 2%;
+        width: 80vw;
+        flex-direction: column;
+        margin-bottom: 9%;
+    }
+    .contenedor2 img{
+        height: 55vh;
+        width: 100%;
     }
 }

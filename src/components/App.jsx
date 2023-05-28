@@ -9,11 +9,11 @@ import Ofertas from './Ofertas'
 function App() {
   return (
     <>
+      <Header></Header>
       <Banner></Banner>
       <Cards></Cards>
+      <Ofertas></Ofertas>
       <Footer></Footer>
-      <Header />
-      <Ofertas />
      </>
   )
 }

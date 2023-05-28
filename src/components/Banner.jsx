@@ -8,6 +8,7 @@ function Banner() {
 
     return (
       <>
+        <div id='banner'></div>
         <div className="banner">
           <div className="capa"></div>
           <div className="info">
