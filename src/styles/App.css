@@ -30,10 +30,11 @@ header{
   }
   
   .links a{
+    font-weight: 600;
     text-decoration: none;
     color: white;
     margin-right: 6%;
-    font-size: 100%;
+    font-size: 120%;
   }
 
   .links a:hover{
