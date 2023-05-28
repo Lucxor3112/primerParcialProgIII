@@ -1,4 +1,16 @@
 @media (max-width: 480px){
+    .banner{
+        height: 50vh;
+    }
+    .info{
+        width: 80vw;
+    }
+    .info h1{
+        font-size: 130%;
+    }
+    .info hr{
+        width: 73vw;
+    }
     .card{
         width: 45vw;
         margin-bottom: 5%;

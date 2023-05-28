@@ -7,6 +7,7 @@ import asado from '../../public/img/asado.jpg'
 function Cards() {
   return (
     <>
+      <h1 className='subtitulo' id='Card'>Menu</h1>
       <div className='containerCard'>
             <div className='card'>
                 <img src={sangucheVeggie} alt="Sanguche"/>
