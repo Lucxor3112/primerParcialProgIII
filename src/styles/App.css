@@ -272,3 +272,44 @@ footer div a{
 .detalle a:hover{
   text-decoration: underline;
 }
+
+/*Header*/
+header{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+  align-items: center;
+}
+
+header .logo {
+  
+}
+
+header .links{
+  
+  text-transform: uppercase;
+}
+.links a{
+  text-decoration: none;
+  color: black;
+  margin-left: 5%;
+}
+
+/*Ofertas*/
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.contenedor2{
+  width: 60vw;
+  background-color: blueviolet;
+  display: flex;
+}
+
+.contenedor2 img{
+  width: 30vw;
+  height: 60vh;
+}
