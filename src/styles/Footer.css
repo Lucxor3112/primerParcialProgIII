@@ -1,0 +1,54 @@
+footer{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    margin-top: auto;
+    text-align: center;
+    background: rgb(6,6,62);
+    background: linear-gradient(90deg, rgba(6,6,62,1) 27%, rgba(23,33,120,1) 92%);
+    color: white;
+}
+
+footer p{
+    font-size: 80%;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    margin-left: 0.5%;
+}
+
+.redes{
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 200%;
+}
+
+.redes a{
+    margin-left: 2%;
+}
+
+.redes .face{
+    margin-left: 0%;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 160%;
+    text-transform: uppercase;
+    margin-bottom: 0.3%;
+}
+
+.copyright{
+    margin-bottom: 0.6%;
+    color: rgb(120, 129, 196);
+}
+
+.detalle a{
+  color: rgb(177, 178, 195);
+}
+
+.detalle a:hover{
+  text-decoration: underline;
+}

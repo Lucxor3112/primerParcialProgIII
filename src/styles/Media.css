@@ -50,4 +50,14 @@
         height: 55vh;
         width: 100%;
     }
+    form{
+        width: 60vw;
+        padding: 10%;
+    }
+    input{
+        width: 56vw;
+    }
+    .boton{
+        width: 60vw;
+    }
 }

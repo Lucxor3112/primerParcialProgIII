@@ -1,0 +1,143 @@
+.uno{
+    margin-top: 4%;
+}
+
+.dos{
+    margin-top: 6.8%;
+}
+
+.subtitulo{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(18,26,102);
+    text-transform: uppercase;
+    font-size: 240%;
+}
+
+.card{
+    margin-top: 8%;
+    background-color: white;
+    width: 20vw;
+    box-shadow: 0px 0px 1.5px black;
+    border-radius: 3%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card:hover{
+  background-color: white;
+  width: 20vw;
+  box-shadow: 0px 0px 6px black;
+  transform: scale(1.1);
+}
+
+.containerCard{
+    /* margin-top: 4%; */
+    margin-bottom: 3%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,0fr);
+    gap: 20px;
+}
+
+.card img{
+    width: 20vw;
+    border-radius:3% 3% 0% 0%;
+}
+
+.detail{
+    padding: 0% 5% 5%;
+}
+
+.detail div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    height: 5vh;
+}
+
+.detail div .par{
+    padding: 1%;
+    border-radius: 12%;
+    font-size: 75%;
+    font-weight: 600;
+}
+
+.detail div .uno{
+    background-color: orange;
+}
+
+
+.detail div .dos{
+    margin-left: 2%;
+    background-color: rgb(58, 184, 58);
+    color: white;
+}
+
+.detail div .tres{
+    background-color: red;
+    color: white;
+}
+
+.detail div .cuatro{
+    margin-left: 2%;
+    background: rgb(198,55,19);
+    background: linear-gradient(0deg, rgba(198,55,19,1) 10%, rgba(231,70,30,1) 26%, rgba(238,218,28,1) 27%, rgba(238,218,28,1) 72%, rgba(231,70,30,1) 74%, rgba(198,55,19,1) 90%);    color: black;
+}
+.detail div .cinco{
+    background-color: black;
+    color: white;
+}
+
+.detail div .seis{
+    margin-left: 2%;
+    background: rgb(19,146,198);
+    background: linear-gradient(0deg, rgba(19,146,198,1) 10%, rgba(46,180,205,1) 26%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 72%, rgba(46,180,205,1) 74%, rgba(19,146,198,1) 90%);
+    color: #d1c027;
+}
+
+.detail div .par:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.detail div .uno:hover{
+    background-color: black;
+    color: orange;
+}
+
+.detail div .dos:hover{
+    background-color: white;
+    color: rgb(58, 184, 58);
+    box-shadow: 0px 0px 1px black;
+}
+
+.detail div .tres:hover{
+    background-color: white;
+    color:red;
+    box-shadow: 0px 0px 1px black;
+}
+
+.detail div .cuatro:hover{
+    background-color: #eeda1c;
+}
+
+.detail div .cinco:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 1px black;
+}
+
+.detail h4{
+    text-transform: uppercase;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.detail p{
+    margin-top: 5%;
+    font-size: 85%;
+}
+
+.detail span{
+    font-weight: 600;
+}

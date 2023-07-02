@@ -14,6 +14,7 @@ function Header() {
        <a href="#">Inicio</a>
        <Link to='Card' spy={true} smooth={true} offset={50} duration={500}>Menu</Link>
        <Link to='Ofertas' spy={true} smooth={true} offset={50} duration={500}>Ofertas</Link>
+       <Link to='Formulario' spy={true} smooth={true} offset={50} duration={500}>Formulario</Link>
     </div>
    </header>
    </>
