@@ -60,4 +60,15 @@
     .boton{
         width: 60vw;
     }
+    .tragosContainer{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .containerInfo{
+        font-size: 60%;
+    }
+    .tragosBoton{
+        font-size: 10%;
+        width: 10vw;
+    }
 }
