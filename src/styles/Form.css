@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 form{
@@ -29,7 +30,6 @@ input:focus{
     text-transform: uppercase;
     text-shadow: 2px 2px 4px black;
     font-weight: 900;
-    width: 23.8vw;
     background-color: rgb(12, 12, 88);
     transition: background-color 0.8s ease;
 }
