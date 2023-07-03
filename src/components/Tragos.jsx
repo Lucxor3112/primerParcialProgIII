@@ -30,7 +30,7 @@ function Tragos(){
 
     return( 
         <>
-            <h2 className='subtitulo tragosSubtitulo'>Tragos</h2>
+            <h2 id='Tragos' className='subtitulo tragosSubtitulo'>Tragos</h2>
             <div className='containerGeneral'>
                 <div className= "tragosContainer">
                     {data.map((cocktail) => (

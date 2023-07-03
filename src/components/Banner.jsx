@@ -2,10 +2,6 @@ import React, {useState} from 'react';
 import { Link } from 'react-scroll';
 
 function Banner() {
-    const [click, setclick] = useState(false)
-    const handleClick = () => setclick(!click)
-    const closeMenu = () => setclick(false)
-
     return (
       <>
         <div id='banner'></div>
