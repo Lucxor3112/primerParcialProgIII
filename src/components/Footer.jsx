@@ -22,8 +22,8 @@ function Footer() {
                 </a>
                 
                 </div>
-                <h3 className='logo'>Antojos <FontAwesomeIcon icon={faUtensils} /></h3>
-                <p className='copyright'>Copyright© 2022 Antojos, Inc</p>
+                <h3 className='logo'>Hugos <FontAwesomeIcon icon={faUtensils} /></h3>
+                <p className='copyright'>Copyright© 2022 Hugos, Inc</p>
                 <div className='detalle'>
                     <a href="#">Informacion legal</a>
                     <a href="#">Politica de privacidad</a>

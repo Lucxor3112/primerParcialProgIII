@@ -13,7 +13,7 @@ import Banner from './Banner.jsx'
 import Header from './Header'
 import Ofertas from './Ofertas'
 import Form from './Form'
-import Tragos from './Tragos'
+// import Tragos from './Tragos'
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Banner></Banner>
       <Cards></Cards>
       <Ofertas></Ofertas>
-      <Tragos></Tragos>
+      {/* <Tragos></Tragos> */}
       <Form></Form>
       <Footer></Footer>
      </>

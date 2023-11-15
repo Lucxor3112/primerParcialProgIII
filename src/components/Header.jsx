@@ -8,7 +8,7 @@ function Header() {
    <>
    <header>
     <div className='logo'>
-        <h1>Antojos <FontAwesomeIcon icon={faUtensils} /></h1>
+        <h1>Hugos <FontAwesomeIcon icon={faUtensils} /></h1>
     </div>
     <div className='links'>
        <a href="#">Inicio</a>
